@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lightbox + Slideshow</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+
+    <h2 style="text-align:center; margin-bottom:20px;">Click any image to open lightbox</h2>
+
+    <div class="gallery">
+        <img src="https://laundryup.com/wp-content/uploads/2024/09/Wash-and-Fold-in-Tustin-CA-1024x855.jpg">
+        <img src="file:///C:/Users/Student/Desktop/wede5020_lessons/wede_assignment/images/row-of-washing-machine-of-laundry-business-in-the-public-store-generative-ai-photo.jpg">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/033/661/384/small_2x/row-of-washing-machine-of-laundry-business-in-the-public-store-generative-ai-photo.jpg">
+        <img src="https://tse1.mm.bing.net/th/id/OIP.TdhGHz45S7V16fFjZFYf_QHaHa?r=0&w=500&h=500&rs=1&pid=ImgDetMain&o=7&rm=3">
+        <img src="https://images.pexels.com/photos/4700383/pexels-photo-4700383.jpeg">
+        <!-- Lightbox -->
+        <div class="lightbox" id="lightbox">
+            <span class="counter" id="counter"></span>
+            <button class="close" id="closeBtn">&times;</button>
+            <button class="prev" id="prevBtn">&#10094;</button>
+            <button class="next" id="nextBtn">&#10095;</button>
+            <div class="lightbox-content">
+                <img src="" alt="" id="lightboxImg">
+                <div class="caption" id="caption"></div>
+            </div>
+        </div>
+
+        <script src="lightbox.js"></script>
+</body>
+
+</html>
